@@ -6,7 +6,14 @@ import chalk from "chalk";
 import validator from "validator"
 
 async function getURL(){
+try{
+    let answer=await inquirer.prompt([{name:"URL",message:"Type in your URL"}])
+    
+}
+catch(err)
+{
 
+}
 }
 
 async function getImageType() {
